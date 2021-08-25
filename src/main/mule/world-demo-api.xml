@@ -16,9 +16,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 			<http:uri-params ><![CDATA[#[output application/java
 ---
 {
-	<!-- Cidade na de busca-->
 	city : attributes.uriParams.city,
-	<!--Continente de busca-->
 	region : attributes.uriParams.region
 }]]]></http:uri-params>
 		</http:request>
